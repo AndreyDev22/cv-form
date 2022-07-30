@@ -8,7 +8,7 @@
 }
 
 body {
-    background: lightblue;
+    background: #504a4a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 
 .container .left_side {
     position: relative;
-    background: #003147;
+    background: #000;
     padding: 40px;
 }
 
@@ -101,7 +101,7 @@ body {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
+    color: #e23636;
 }
 
 .contact_info ul li span {
@@ -111,11 +111,13 @@ body {
 
 .contact_info.education li {
     margin-bottom: 15px;
+    cursor: default;
 }
 
 .contact_info.education h5 {
-    color: #03a9f4;
+    color: #e23636;
     font-weight: 500;
+    
 }
 
 .contact_info.education h4:nth-child(2) {
@@ -142,7 +144,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #e23636;
 }
 
 
@@ -162,7 +164,7 @@ body {
 }
 
 .title2 {
-    color: #003147;
+    color: #000;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -190,7 +192,7 @@ p {
 
 .about .box .text h4 {
     text-transform: uppercase;
-    color: #2a7da2;
+    color: #e23636;
     font-size: 16px;
 }
 
@@ -221,7 +223,7 @@ p {
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #e23636;
 }
 
 .interest ul{
@@ -237,7 +239,7 @@ p {
 }
 
 .interest ul li .fa {
-    color: #03a9f4;
+    color: #e23636;
     font-size: 18px;
     width: 20px;
 }
